@@ -16,6 +16,11 @@ Currently, I am fine-tuning the models and optimizing them for real-world radar 
   <img src="predandactual.png" alt="Plot Description" width="300"/>
 </div>
 
+## Challenges
+* Adapting the models to handle noisy or incomplete real-world data.
+* Fine-tuning hyperparameters for optimal performance.
+* Handling the complexity of atmospheric effects in real radar data.
+
 ## Next Steps
 * Integrate real-world radar data when available.
 * Fine-tune models based on the new data.
