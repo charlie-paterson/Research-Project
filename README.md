@@ -1,3 +1,3 @@
 # Research-Project
 
-![Plot Description](Screenshot 2025-01-30 134828.png)
+![Plot Description](Screenshot2025-01-30134828.png)
