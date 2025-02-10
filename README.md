@@ -1,3 +1,3 @@
 # Research-Project
 
-![Plot Description](figure pred vs act.png.png)
+![Plot Description](figure pred vs act.png)
