@@ -10,7 +10,13 @@ Currently, I am fine-tuning the models and optimizing them for real-world radar 
 ![Link to code here](First_ML_Radar_for_git.m)
 
 
-## Figure
+### Figures
 <div style="text-align: center;">
   <img src="predandactual.png" alt="Plot Description" width="300"/>
 </div>
+
+## Next Steps
+* Integrate real-world radar data when available.
+* Fine-tune models based on the new data.
+* Conduct further validation to improve model robustness and reliability.
+* Explore the use of other machine learning models and techniques to enhance predictions.
