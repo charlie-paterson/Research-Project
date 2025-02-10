@@ -1,0 +1,3 @@
+git add figure pred vs act.png
+git commit -m "Added plot from memory stick"
+git push
