@@ -8,7 +8,12 @@ I have successfully generated synthetic data to simulate radar wave propagation 
 Currently, I am fine-tuning the models and optimizing them for real-world radar data once it's available. The next steps will involve testing the models on real-world data and further improving their performance in real-world conditions.
 
 ### Code
+The code for this project is available in the following repository:
+
 ![Link to code here](First_ML_Radar_for_git.m)
+
+Feel free to explore, contribute, or provide feedback. The code is organized into different modules based on data preprocessing, model training, and evaluation.
+
 
 
 ### Figures
