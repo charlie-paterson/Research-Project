@@ -18,7 +18,7 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 
 ### Figures
 <div style="text-align: center;">
-  <img src="predandactual.png" alt="Plot Description" width="300"/>
+  <img src="predandactualvalues.png" alt="Plot Description" width="300"/>
 </div>
 
 ## Challenges
