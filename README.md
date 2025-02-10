@@ -21,6 +21,10 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
   <img src="figure1.png" alt="Plot Description" width="300"/>
 </div>
 
+<div style="text-align: center;">
+  <img src="SVMplot.png" alt="Plot Description" width="300"/>
+</div>
+
 ## Challenges
 * Adapting the models to handle noisy or incomplete real-world data.
 * Fine-tuning hyperparameters for optimal performance.
