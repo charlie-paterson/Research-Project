@@ -8,6 +8,8 @@ I have successfully generated synthetic data to simulate radar wave propagation 
 Currently, I am fine-tuning the models and optimizing them for real-world radar data once it's available. The next steps will involve testing the models on real-world data and further improving their performance in real-world conditions.
 
 ### Code
+For this project, I utilized MATLAB to generate synthetic data and implement two machine learning algorithms: the Fine Tree Regressor and the Support Vector Machine (SVM) Regressor. The synthetic data was carefully crafted to mimic realistic patterns, ensuring a diverse range of features and complexities that test the robustness of both models. This allowed me to simulate real-world conditions while maintaining full control over the data properties.
+
 The code for this project is available in the following repository:
 
 ![Link to code here](First_ML_Radar_for_git.m)
