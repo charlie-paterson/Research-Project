@@ -17,6 +17,9 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 
 
 ### Figures
+
+I utilized multiple figures to illustrate how well the Fine Tree Regressor model fits the actual values in the dataset. The plots reveal a near-perfect alignment between the predicted and actual data points, indicating the model's strong ability to capture both linear and non-linear relationships within the data.
+
 <p align="center">
   <img src="figure1.png" alt="Plot Description" width="300"/>
 </p>
@@ -30,6 +33,10 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 </p>
 
 <p align="center"><em>Figure 1: This shows the plot from my fine tree regressor model, demonstrating an almost perfect fit.</em></p>
+
+When compared to the Support Vector Machine (SVM) Regressor, the Fine Tree Regressor consistently demonstrated superior performance. While the SVM regressor struggled with overfitting and underfitting in certain regions—especially where the data exhibited complex, non-linear patterns—the fine tree model maintained high accuracy across all data ranges. This is largely due to the fine tree's inherent flexibility in partitioning the feature space, allowing it to adapt more effectively to subtle variations in the data.
+
+Overall, the visual comparisons and performance metrics clearly establish the Fine Tree Regressor as the more effective model for this dataset, offering both precision and reliability in its predictions.
 
 ## Challenges
 * Adapting the models to handle noisy or incomplete real-world data.
