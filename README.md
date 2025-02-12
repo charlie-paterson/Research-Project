@@ -20,8 +20,8 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 <div style="text-align: center;">
   <img src="figure1.png" alt="Plot Description" width="300"/>
 </div>
+*Figure 1: This shows the plot from my fine tree regressor model where it shows an almost perfect fit.*
 
-This shows the plot from my fine tree regressor model where it shows an almost perfect fit.
 
 <div style="text-align: center;">
   <img src="Figures/SVMplot.png" alt="Plot Description" width="300"/>
