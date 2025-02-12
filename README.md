@@ -12,7 +12,7 @@ For this project, I utilized MATLAB to generate synthetic data and implement two
 
 The code for this project is available in the following repository:
 
-![Link to code here](First_ML_Radar_for_git.m)
+![Link to code here](Code/First_ML_Radar_for_git.m)
 
 Feel free to explore, contribute, or provide feedback. The code is organized into different modules based on data preprocessing, model training, and evaluation.
 
@@ -23,7 +23,7 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 I utilized multiple figures to illustrate how well the Fine Tree Regressor model fits the actual values in the dataset. The plots reveal a near-perfect alignment between the predicted and actual data points, indicating the model's strong ability to capture both linear and non-linear relationships within the data.
 
 <p align="center">
-  <img src="figure1.png" alt="Plot Description" width="300"/>
+  <img src="Figures/figure1.png" alt="Plot Description" width="300"/>
 </p>
 
 <p align="center"><em>Figure 1: This shows the plot from my fine tree regressor model, demonstrating an almost perfect fit.</em></p>
