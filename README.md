@@ -24,7 +24,7 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 This shows the plot from my fine tree regressor model where it shows an almost perfect fit.
 
 <div style="text-align: center;">
-  <img src="SVMplot.png" alt="Plot Description" width="300"/>
+  <img src="Figures/SVMplot.png" alt="Plot Description" width="300"/>
 </div>
 
 ## Challenges
