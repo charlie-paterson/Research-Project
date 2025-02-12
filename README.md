@@ -23,11 +23,13 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 
 <p align="center"><em>Figure 1: This shows the plot from my fine tree regressor model, demonstrating an almost perfect fit.</em></p>
 
+<br><br>
 
-
-<div style="text-align: center;">
+<p align="center">
   <img src="Figures/SVMplot.png" alt="Plot Description" width="300"/>
-</div>
+</p>
+
+<p align="center"><em>Figure 1: This shows the plot from my fine tree regressor model, demonstrating an almost perfect fit.</em></p>
 
 ## Challenges
 * Adapting the models to handle noisy or incomplete real-world data.
