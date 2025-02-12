@@ -17,11 +17,12 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 
 
 ### Figures
-<div style="text-align: center;">
+<p align="center">
   <img src="figure1.png" alt="Plot Description" width="300"/>
-</div>
+</p>
 
-*Figure 1: This shows the plot from my fine tree regressor model where it shows an almost perfect fit. *
+<p align="center"><em>Figure 1: This shows the plot from my fine tree regressor model, demonstrating an almost perfect fit.</em></p>
+
 
 
 <div style="text-align: center;">
