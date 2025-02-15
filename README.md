@@ -3,9 +3,9 @@
 This project aims to develop a neural network model to predict the refractive index of radar waves based on wave propagation and incidence angle. By leveraging deep learning, the goal is to improve the accuracy and reliability of radar systems by modeling how radar waves interact with atmospheric conditions, enabling better real-time performance analysis.
 
 ## Current Progress
-I have successfully generated synthetic data to simulate radar wave propagation under varying atmospheric conditions, including factors like temperature inversions and humidity gradients. I have also implemented machine learning models, including Support Vector Machine Regressor (SVM) and Fine Tree models, to predict the refractive index based on the input data. The models are performing well, with the Fine Tree model yielding an R² score of 0.99, indicating excellent accuracy.
+I have successfully generated synthetic data to simulate radar wave propagation under varying atmospheric conditions, incorporating factors like temperature inversions and humidity gradients. I have implemented a neural network model to predict the refractive index based on this data, achieving an R² score close to 1.00, indicating excellent accuracy.
 
-Currently, I am fine-tuning the models and optimizing them for real-world radar data once it's available. The next steps will involve testing the models on real-world data and further improving their performance in real-world conditions.
+Currently, I am fine-tuning the model and optimizing it for real-world radar data. The next steps involve testing on real-world conditions and further enhancing its performance for practical applications.
 
 ### Code
 For this project, I utilized MATLAB to generate synthetic data and implement two machine learning algorithms: the Fine Tree Regressor and the Support Vector Machine (SVM) Regressor. The synthetic data was carefully crafted to mimic realistic patterns, ensuring a diverse range of features and complexities that test the robustness of both models. This allowed me to simulate real-world conditions while maintaining full control over the data properties.
