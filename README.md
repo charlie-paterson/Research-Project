@@ -1,6 +1,6 @@
 # Research-Project
 
-This project aims to develop a machine learning algorithm to predict the refractive index of radar waves based on the input parameters of wave propagation and incidence angle. Using various machine learning models (such as Support Vector Machines and Fine Tree models), the goal is to improve the reliability and accuracy of radar systems by better understanding and predicting how radar waves interact with atmospheric conditions.
+This project aims to develop a neural network model to predict the refractive index of radar waves based on wave propagation and incidence angle. By leveraging deep learning, the goal is to improve the accuracy and reliability of radar systems by modeling how radar waves interact with atmospheric conditions, enabling better real-time performance analysis.
 
 ## Current Progress
 I have successfully generated synthetic data to simulate radar wave propagation under varying atmospheric conditions, including factors like temperature inversions and humidity gradients. I have also implemented machine learning models, including Support Vector Machine Regressor (SVM) and Fine Tree models, to predict the refractive index based on the input data. The models are performing well, with the Fine Tree model yielding an R² score of 0.99, indicating excellent accuracy.
