@@ -23,7 +23,7 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 I utilized multiple figures to illustrate how well the Fine Tree Regressor model fits the actual values in the dataset. The plots reveal a near-perfect alignment between the predicted and actual data points, indicating the model's strong ability to capture both linear and non-linear relationships within the data.
 
 <p align="center">
-  <img src="Figures/figure1.png" alt="Plot Description" width="300"/>
+  <img src="Figures/errors.png" alt="Plot Description" width="300"/>
 </p>
 
 <p align="center"><em>Figure 1: This shows the plot from my fine tree regressor model, demonstrating an almost perfect fit.</em></p>
