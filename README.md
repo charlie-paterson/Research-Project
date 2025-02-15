@@ -31,7 +31,7 @@ I utilized multiple figures to illustrate how well the Fine Tree Regressor model
 <br><br>
 
 <p align="center">
-  <img src="Figures/SVMplot.png" alt="Plot Description" width="300"/>
+  <img src="Figures/Rsquared.png" alt="Plot Description" width="300"/>
 </p>
 
 <p align="center"><em>Figure 1: This shows the plot from my fine tree regressor model, demonstrating an almost perfect fit.</em></p>
