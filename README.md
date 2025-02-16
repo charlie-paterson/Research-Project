@@ -5,7 +5,7 @@ This project aims to develop a neural network model to predict the refractive in
 ## Current Progress
 I have successfully generated synthetic data to simulate radar wave propagation under varying atmospheric conditions, incorporating factors like temperature inversions and humidity gradients. I have implemented a neural network model to predict the refractive index based on this data, achieving an R² score close to 1.00, indicating excellent accuracy.
 
-Currently, I am fine-tuning the model and optimizing it for real-world radar data. The next steps involve testing on real-world conditions and further enhancing its performance for practical applications.
+Currently, I am fine-tuning the model and optimizing it with the synthetic data. The next steps involve testing on real-world conditions and further enhancing its performance for practical applications.
 
 ### Code
 For this project, I used MATLAB to generate synthetic data and develop a neural network model to predict the refractive index. The data was designed to capture realistic atmospheric patterns, ensuring a diverse range of features for robust model training. This approach allows for accurate simulation of real-world conditions while maintaining full control over data properties.
