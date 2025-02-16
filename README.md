@@ -12,7 +12,7 @@ For this project, I used MATLAB to generate synthetic data and develop a neural 
 
 The code for this project is available in the following repository:
 
-![Link to code here](Code/First_ML_Radar_for_git.m)
+![Link to code here](Code/Neural_Net.m)
 
 Feel free to explore, contribute, or provide feedback. The code is organized into different modules based on data preprocessing, model training, and evaluation.
 
