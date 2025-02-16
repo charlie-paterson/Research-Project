@@ -28,6 +28,8 @@ I utilized multiple figures to illustrate how well the neural network model fits
 
 <p align="center"><em>Figure 1: This shows the plot from my neural network model, demonstrating minimal error against the targets.</em></p>
 
+The error histogram provides insight into the neural network model’s prediction accuracy by visualizing the distribution of errors between the predicted and actual refractive index values. The histogram shows a strong concentration of errors around zero, indicating minimal deviation and high model accuracy. This confirms the network’s ability to effectively learn atmospheric patterns and predict refractivity with precision.
+
 <br><br>
 
 <p align="center">
