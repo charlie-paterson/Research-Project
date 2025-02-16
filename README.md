@@ -8,7 +8,7 @@ I have successfully generated synthetic data to simulate radar wave propagation 
 Currently, I am fine-tuning the model and optimizing it for real-world radar data. The next steps involve testing on real-world conditions and further enhancing its performance for practical applications.
 
 ### Code
-For this project, I utilized MATLAB to generate synthetic data and implement two machine learning algorithms: the Fine Tree Regressor and the Support Vector Machine (SVM) Regressor. The synthetic data was carefully crafted to mimic realistic patterns, ensuring a diverse range of features and complexities that test the robustness of both models. This allowed me to simulate real-world conditions while maintaining full control over the data properties.
+For this project, I used MATLAB to generate synthetic data and develop a neural network model to predict the refractive index. The data was designed to capture realistic atmospheric patterns, ensuring a diverse range of features for robust model training. This approach allows for accurate simulation of real-world conditions while maintaining full control over data properties.
 
 The code for this project is available in the following repository:
 
@@ -20,13 +20,13 @@ Feel free to explore, contribute, or provide feedback. The code is organized int
 
 ### Figures
 
-I utilized multiple figures to illustrate how well the Fine Tree Regressor model fits the actual values in the dataset. The plots reveal a near-perfect alignment between the predicted and actual data points, indicating the model's strong ability to capture both linear and non-linear relationships within the data.
+I utilized multiple figures to illustrate how well the neural network model fits the actual values in the dataset. The error histogram and performance metrics show a strong alignment between predicted and actual values, highlighting the model’s ability to accurately capture complex atmospheric relationships.
 
 <p align="center">
   <img src="Figures/errors.png" alt="Plot Description" width="300"/>
 </p>
 
-<p align="center"><em>Figure 1: This shows the plot from my fine tree regressor model, demonstrating an almost perfect fit.</em></p>
+<p align="center"><em>Figure 1: This shows the plot from my neural network model, demonstrating minimal error against the targets.</em></p>
 
 <br><br>
 
