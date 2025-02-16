@@ -34,7 +34,9 @@ The error histogram provides insight into the neural network model’s predictio
   <img src="Figures/Rsquared.png" alt="Plot Description" width="300"/>
 </p>
 
-<p align="center"><em>Figure 1: This shows the plot from my fine tree regressor model, demonstrating an almost perfect fit.</em></p>
+<p align="center"><em>Figure 2: This shows the regression plots, demonstrating a perfect fit.</em></p>
+
+The MATLAB neural network performance plot displays four key graphs that evaluate the model’s accuracy in predicting the refractive index. These include the regression plots, which compare predicted values against actual targets for training, validation, and test datasets. The R² scores in each plot are close to 1.00, indicating a strong correlation between predictions and actual values. The near-linear fit in all cases demonstrates the model’s effectiveness in capturing atmospheric refractivity patterns, confirming its reliability for radar wave propagation analysis
 
 When compared to the Support Vector Machine (SVM) Regressor, the Fine Tree Regressor consistently demonstrated superior performance. While the SVM regressor struggled with overfitting and underfitting in certain regions—especially where the data exhibited complex, non-linear patterns—the fine tree model maintained high accuracy across all data ranges. This is largely due to the fine tree's inherent flexibility in partitioning the feature space, allowing it to adapt more effectively to subtle variations in the data.
 
