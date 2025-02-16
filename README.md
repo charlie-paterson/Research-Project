@@ -42,7 +42,7 @@ The MATLAB neural network performance plot displays four key graphs that evaluat
   <img src="Figures/epoch.png" alt="Plot Description" width="300"/>
 </p>
 
-<p align="center"><em>Figure 3: This shows the regression plots, demonstrating a perfect fit.</em></p>
+<p align="center"><em>Figure 3: This shows how the mean squared error changed over the course of the training process.</em></p>
 
 
 
@@ -50,7 +50,7 @@ The MATLAB neural network performance plot displays four key graphs that evaluat
   <img src="Figures/gradient.png" alt="Plot Description" width="300"/>
 </p>
 
-<p align="center"><em>Figure 4: This shows the regression plots, demonstrating a perfect fit.</em></p>
+<p align="center"><em>Figure 4: This shows the gradient change over the course of the training process.</em></p>
 
 
 
@@ -58,7 +58,7 @@ The MATLAB neural network performance plot displays four key graphs that evaluat
   <img src="Figures/evaluation.png" alt="Plot Description" width="300"/>
 </p>
 
-<p align="center"><em>Figure 5: This shows the regression plots, demonstrating a perfect fit.</em></p>
+<p align="center"><em>Figure 5: This shows the evaluation metrics for the Neural Network.</em></p>
 
 Overall, the visual comparisons and performance metrics clearly establish the Fine Tree Regressor as the more effective model for this dataset, offering both precision and reliability in its predictions.
 
