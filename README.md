@@ -36,7 +36,7 @@ The error histogram provides insight into the neural network model’s predictio
 
 <p align="center"><em>Figure 2: This shows the regression plots, demonstrating a perfect fit.</em></p>
 
-The MATLAB neural network performance plot displays four key graphs that evaluate the model’s accuracy in predicting the refractive index. These include the regression plots, which compare predicted values against actual targets for training, validation, and test datasets. The R² scores in each plot are close to 1.00, indicating a strong correlation between predictions and actual values. The near-linear fit in all cases demonstrates the model’s effectiveness in capturing atmospheric refractivity patterns, confirming its reliability for radar wave propagation analysis
+The MATLAB neural network performance plot displays four key graphs that evaluate the model’s accuracy in predicting the refractive index. These include the regression plots, which compare predicted values against actual targets for training, validation, and test datasets. The R² scores in each plot are close to 1.00, indicating a strong correlation between predictions and actual values. The near-linear fit in all cases demonstrates the model’s effectiveness in capturing atmospheric refractivity patterns, confirming its reliability for radar wave propagation analysis.
 
 <p align="center">
   <img src="Figures/epoch.png" alt="Plot Description" width="300"/>
@@ -44,7 +44,7 @@ The MATLAB neural network performance plot displays four key graphs that evaluat
 
 <p align="center"><em>Figure 3: This shows how the mean squared error changed over the course of the training process.</em></p>
 
-
+The MATLAB neural network performance plot includes a graph that illustrates how the Mean Squared Error (MSE) evolves during the training process. This graph tracks the MSE for the training, validation, and test datasets at each epoch, providing an indication of the model’s learning progression. As the training advances, the MSE gradually decreases, signaling that the model is minimizing the error between the predicted refractive index values and the actual targets. The consistent decrease in MSE for both training and validation sets suggests that the model is successfully learning and generalizing the patterns of atmospheric refractivity. The MSE curve's smooth decline and stabilization near the lower bound highlight the model’s effectiveness in capturing radar wave propagation patterns, indicating reliable performance for future predictions.
 
 <p align="center">
   <img src="Figures/gradient.png" alt="Plot Description" width="300"/>
@@ -52,7 +52,7 @@ The MATLAB neural network performance plot displays four key graphs that evaluat
 
 <p align="center"><em>Figure 4: This shows the gradient change over the course of the training process.</em></p>
 
-
+The MATLAB neural network performance plot includes a graph that displays the gradient of the model’s error during the training process. This graph monitors how the gradient changes at each epoch, providing insight into how the optimization algorithm is adjusting the model’s weights to minimize the error. A decreasing gradient suggests that the model is converging, and the optimization is becoming more stable. If the gradient becomes very small, it indicates that the model is nearing its optimal set of weights, and further adjustments will have a minimal effect on reducing the error. The smooth decline of the gradient in the graph reflects the effectiveness of the training process, suggesting that the neural network is successfully learning and refining its ability to predict the refractive index. This behavior demonstrates the network's efficient optimization for radar wave propagation analysis, ensuring reliable predictions for future datasets.
 
 <p align="center">
   <img src="Figures/evaluation.png" alt="Plot Description" width="300"/>
@@ -60,7 +60,13 @@ The MATLAB neural network performance plot displays four key graphs that evaluat
 
 <p align="center"><em>Figure 5: This shows the evaluation metrics for the Neural Network.</em></p>
 
-Overall, the visual comparisons and performance metrics clearly establish the Fine Tree Regressor as the more effective model for this dataset, offering both precision and reliability in its predictions.
+The training results figure in MATLAB displays the progress of the model’s performance throughout the training process. This figure typically shows how the training error (often the Mean Squared Error, MSE) evolves over each epoch. It provides valuable insight into how well the model is learning and adjusting its weights to minimize error.
+
+Initially, the error tends to be higher, but as training progresses, the MSE decreases, indicating that the model is learning to make more accurate predictions. The graph typically shows both the training error and the validation error, allowing for the detection of overfitting. If the validation error begins to increase while the training error continues to decrease, it may signal that the model is overfitting to the training data. However, if both errors decrease and stabilize, it shows that the model is generalizing well and optimizing successfully.
+
+The training results figure illustrates the model’s ability to converge toward an optimal solution, with error values gradually decreasing until they reach a minimum, indicating effective learning. This progression confirms that the neural network is successfully capturing the underlying patterns in the data, making it reliable for radar wave propagation analysis.
+
+Overall, the visual comparisons and performance metrics clearly establish the Neural Network as an effective model for this dataset, offering both precision and reliability in its predictions.
 
 ## Challenges
 * Adapting the models to handle noisy or incomplete real-world data.
