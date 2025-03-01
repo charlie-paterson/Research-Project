@@ -4,7 +4,8 @@ This project aims to develop a neural network model to predict the refractivity 
 
 I have created two codes because I was originally informed that I would be given inputs of incidence angle and propagation factor, however upon discussion, we thought the best input to get would be the sea 'clutter' returns. Both codes and analysis of the codes are in links below.
 
-
+First code with inputs of incidence angle and propagation factor
+Second code with input of sea 'clutter' returns
 
 ## Challenges
 * Adapting the models to handle noisy or incomplete real-world data.
