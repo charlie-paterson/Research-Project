@@ -1,5 +1,5 @@
-## Current Progress
-I have successfully generated synthetic data so that I can see what needs to be done for when I get the real data across. I have implemented a neural network model to predict the refractive index based on this data, achieving an R² score close to 1.00, indicating excellent accuracy.
+## Progress
+I have generated synthetic data with inputs of incidence angle and propagation factor so that I can see what needs to be done for when I get the real data across. I have implemented a neural network model to predict the refractive index based on this data, achieving an R² score close to 1.00, indicating excellent accuracy.
 
 Currently, I am fine-tuning the model and optimizing it with the synthetic data. The next steps involve testing on real-world conditions and further enhancing its performance for practical applications.
 
