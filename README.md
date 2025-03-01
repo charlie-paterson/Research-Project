@@ -2,6 +2,8 @@
 
 This project aims to develop a neural network model to predict the refractivity profile of radar waves based on sea clutter returns. By leveraging deep learning, the goal is to improve the accuracy and reliability of radar systems by modeling how radar waves interact with atmospheric conditions, enabling better real-time performance analysis.
 
+I have created two codes because I was originally informed that I would be given inputs of incidence angle and propagation factor, however upon discussion, we thought the best input to get would be the sea 'clutter' returns. Both codes and analysis of the codes are in links below.
+
 ## Current Progress
 I have successfully generated synthetic data so that I can see what needs to be done for when I get the real data across. I have implemented a neural network model to predict the refractive index based on this data, achieving an R² score close to 1.00, indicating excellent accuracy.
 
