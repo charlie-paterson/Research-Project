@@ -5,6 +5,10 @@ I have completed a second code which proves as a proof of concept for the main d
 ### Code
 For this project, I used MATLAB to generate synthetic sea 'clutter' return data and develop a neural network model to predict the refractivity profile. The data was designed to capture a proof of concept, ensuring a diverse range of features for robust model training. This approach allows for the simulation of real-world sea clutter conditions while maintaining full control over data properties.
 
+Initially, I considered using the Levenberg-Marquardt (LM) backpropagation algorithm for training. However, after evaluation, I opted for Bayesian Regularization (BR) as it proved to be a better fit for this specific application. Bayesian Regularization helps prevent overfitting by incorporating a probabilistic framework that adjusts the network's complexity during training. Unlike LM, which focuses on minimizing the sum of squared errors, BR modifies the objective function by adding a penalty term that reduces excessive model complexity, making it particularly effective when dealing with noisy or limited datasets.
+
+Since sea clutter data can exhibit high variability and may contain noise, Bayesian Regularization allowed for improved generalization, ensuring the model performs well on unseen data while maintaining stability.
+
 The code for this project is available in the following repository:
 
 [Link to code](./Code/Neural_Net2.m/)
