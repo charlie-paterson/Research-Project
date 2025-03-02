@@ -9,7 +9,7 @@ I have created two codes because I was originally informed that I would be given
 [Second code with input of sea 'clutter' returns](./Codes/Input%20of%20Sea%20Clutter%20Returns/)
 
 ## Challenges
-* Adapting the models to handle noisy or incomplete real-world data.
+* Adapting the second model to handle noisy or incomplete real-world data.
 * Fine-tuning hyperparameters for optimal performance.
 * Handling the complexity of atmospheric effects in real radar data.
 
