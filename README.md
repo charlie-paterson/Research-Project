@@ -6,7 +6,7 @@ I have created two codes because I was originally informed that I would be given
 
 [First code with inputs of incidence angle and propagation factor](./Codes/Inputs%20of%20Propagation%20Factor%20and%20Incidence%20angle/)
 
-Second code with input of sea 'clutter' returns
+[Second code with input of sea 'clutter' returns](./Codes/Input%20of%20Sea%20Clutter%20Returns/Code/Neural_Net2.m/)
 
 ## Challenges
 * Adapting the models to handle noisy or incomplete real-world data.
