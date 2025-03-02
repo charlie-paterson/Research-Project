@@ -15,7 +15,7 @@ You're welcome to explore, contribute, or share your feedback! The code is struc
 
 ### Figures
 
-I utilized multiple figures to illustrate how well the neural network model fits the actual values in the dataset. The error histogram and performance metrics show a strong alignment between predicted and actual values, highlighting the model’s ability to accurately capture complex atmospheric relationships.
+I used multiple figures to visualize how well the neural network model aligns with the actual values in the dataset. The performance metrics demonstrate a strong correlation between predictions and real data, showcasing the model’s ability to capture complex atmospheric relationships accurately.
 
 <p align="center">
   <img src="Figures/errors.png" alt="Plot Description" width="300"/>
