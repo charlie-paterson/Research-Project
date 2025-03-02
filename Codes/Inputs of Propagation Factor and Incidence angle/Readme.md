@@ -1,8 +1,6 @@
 ## Progress
 I have generated synthetic data with inputs of incidence angle and propagation factor so that I can see what needs to be done for when I get the real data across. I have implemented a neural network model to predict the refractive index based on this data, achieving an R² score close to 1.00, indicating excellent accuracy.
 
-Currently, I am fine-tuning the model and optimizing it with the synthetic data. The next steps involve testing on real-world conditions and further enhancing its performance for practical applications.
-
 ### Code
 For this project, I used MATLAB to generate synthetic data and develop a neural network model to predict the refractivity profile. The data was designed to capture a proof of conceot, ensuring a diverse range of features for robust model training. This approach allows for simulation of real-world conditions while maintaining full control over data properties.
 
