@@ -25,7 +25,7 @@ I used multiple figures to visualize how well the neural network model aligns wi
   <img src="Figures/errors2.png" alt="Plot Description" width="300"/>
 </p>
 
-<p align="center"><em>Figure 1: This shows the plot from my neural network model, demonstrating minimal error against the targets.</em></p>
+<p align="center"><em>Figure 1: This plot from my neural network model illustrates a close alignment between predictions and target values, indicating minimal error.</em></p>
 
 The error histogram illustrates the neural network model’s prediction accuracy by depicting the distribution of errors between predicted and actual refractive index values. A strong clustering of errors near zero suggests minimal deviation, highlighting the model’s precision. This indicates that the network has effectively learned atmospheric patterns and can accurately predict refractivity with minimal error.
 
@@ -33,7 +33,7 @@ The error histogram illustrates the neural network model’s prediction accuracy
   <img src="Figures/rscore2.png" alt="Plot Description" width="300"/>
 </p>
 
-<p align="center"><em>Figure 2: This shows the regression plots, demonstrating a perfect fit.</em></p>
+<p align="center"><em>Figure 2: These regression plots illustrate a near-perfect fit, highlighting the strong correlation between predicted and actual values.</em></p>
 
 The MATLAB neural network performance plot presents four essential graphs that assess the model’s accuracy in predicting the refractivity profile. Among them are the regression plots, which compare predicted values with actual targets across training, validation, and test datasets. The high R² scores, approaching 1.00, indicate a strong correlation between predictions and actual values. The near-linear fit across all datasets confirms the model’s effectiveness in capturing atmospheric refractivity patterns, ensuring its reliability for radar wave propagation analysis.
 
@@ -41,7 +41,7 @@ The MATLAB neural network performance plot presents four essential graphs that a
   <img src="Figures/epoch2.png" alt="Plot Description" width="300"/>
 </p>
 
-<p align="center"><em>Figure 3: This shows how the mean squared error changed over the course of the training process.</em></p>
+<p align="center"><em>Figure 3: This plot illustrates the progression of mean squared error throughout the training process.</em></p>
 
 The MATLAB neural network performance plot features a graph that tracks the evolution of Mean Squared Error (MSE) throughout the training process. This graph monitors MSE across training, validation, and test datasets at each epoch, offering insights into the model’s learning progress. As training progresses, the MSE steadily decreases, reflecting the model’s ability to reduce the error between predicted and actual refractivity profile values. The consistent decline in MSE for both training and validation sets indicates effective learning and generalization of atmospheric refractivity patterns. The smooth downward trend and eventual stabilization near a minimal value highlight the model’s proficiency in capturing radar wave propagation characteristics, reinforcing its reliability for future predictions.
 
