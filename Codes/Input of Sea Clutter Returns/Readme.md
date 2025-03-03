@@ -27,7 +27,7 @@ I used multiple figures to visualize how well the neural network model aligns wi
 
 <p align="center"><em>Figure 1: This shows the plot from my neural network model, demonstrating minimal error against the targets.</em></p>
 
-The error histogram provides insight into the neural network model’s prediction accuracy by visualizing the distribution of errors between the predicted and actual refractive index values. The histogram shows a strong concentration of errors around zero, indicating minimal deviation and high model accuracy. This confirms the network’s ability to effectively learn atmospheric patterns and predict refractivity with precision.
+The error histogram illustrates the neural network model’s prediction accuracy by depicting the distribution of errors between predicted and actual refractive index values. A strong clustering of errors near zero suggests minimal deviation, highlighting the model’s precision. This indicates that the network has effectively learned atmospheric patterns and can accurately predict refractivity with minimal error.
 
 <p align="center">
   <img src="Figures/rscore2.png" alt="Plot Description" width="300"/>
@@ -35,7 +35,7 @@ The error histogram provides insight into the neural network model’s predictio
 
 <p align="center"><em>Figure 2: This shows the regression plots, demonstrating a perfect fit.</em></p>
 
-The MATLAB neural network performance plot displays four key graphs that evaluate the model’s accuracy in predicting the refractivity profile. These include the regression plots, which compare predicted values against actual targets for training, validation, and test datasets. The R² scores in each plot are close to 1.00, indicating a strong correlation between predictions and actual values. The near-linear fit in all cases demonstrates the model’s effectiveness in capturing atmospheric refractivity patterns, confirming its reliability for radar wave propagation analysis.
+The MATLAB neural network performance plot presents four essential graphs that assess the model’s accuracy in predicting the refractivity profile. Among them are the regression plots, which compare predicted values with actual targets across training, validation, and test datasets. The high R² scores, approaching 1.00, indicate a strong correlation between predictions and actual values. The near-linear fit across all datasets confirms the model’s effectiveness in capturing atmospheric refractivity patterns, ensuring its reliability for radar wave propagation analysis.
 
 <p align="center">
   <img src="Figures/epoch2.png" alt="Plot Description" width="300"/>
