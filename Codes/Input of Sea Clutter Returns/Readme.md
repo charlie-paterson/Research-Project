@@ -65,4 +65,10 @@ Initially, the error tends to be higher, but as training progresses, the MSE dec
 
 The training results figure illustrates the model’s ability to converge toward an optimal solution, with error values gradually decreasing until they reach a minimum, indicating effective learning. This progression confirms that the neural network is successfully capturing the underlying patterns in the data, making it reliable for radar wave propagation analysis.
 
+<p align="center">
+  <img src="Figures/actvspred2.png" alt="Plot Description" width="300"/>
+</p>
+
+<p align="center"><em>Figure 5: This shows the predicted vs actual values of a specific refractivity profile with a certain sea clutter return.</em></p>
+
 Overall, the visual comparisons and performance metrics clearly establish the Neural Network as an effective model for this dataset, offering both precision and reliability in its predictions.
