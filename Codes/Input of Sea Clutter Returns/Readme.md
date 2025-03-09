@@ -69,7 +69,7 @@ The training results figure illustrates the model’s ability to converge toward
   <img src="Figures/actvspred2.png" alt="Plot Description" width="300"/>
 </p>
 
-<p align="center"><em>Figure 5: This shows the predicted vs actual values of a specific refractivity profile with a certain sea clutter return.</em></p>
+<p align="center"><em>Figure 6: This shows the predicted vs actual values of a specific refractivity profile with a certain sea clutter return.</em></p>
 
 The actual vs. predicted refractivity profile for a given radar clutter return shows how closely the model’s outputs align with real refractivity values. In the plot, the predicted profile follows the actual values with minimal deviation, indicating that the neural network effectively captures the underlying relationship. The patterns and trends in refractivity are well preserved, demonstrating that the model generalizes effectively to unseen data. Any small discrepancies may be due to slight generalization errors or noise in the data but do not significantly impact the overall accuracy.
 
